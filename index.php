@@ -81,6 +81,10 @@ function load_images(): array {
 
     // Fetch from Wikimedia Commons with a handful of well-targeted searches
     $queries = [
+        'York Art Gallery England',
+        'The Hiscox Building York England',
+        'York University England campus',
+        'Street performance York England',
         'York Minster England cathedral',
         'The Shambles York England street',
         'York city walls England medieval',
