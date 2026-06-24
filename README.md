@@ -1,23 +1,10 @@
-# homeinyork.uk — deployment notes
+# homeinyork.uk — The home of The Joblings online
 
 ## Files
 
 | File         | Purpose                                              |
 |--------------|------------------------------------------------------|
-| `index.php`  | Gallery page — fetches images from Wikimedia Commons |
-| `.htaccess`  | Cache protection, security headers, compression      |
 
-## First-time setup
-
-1. Upload both files to the Fasthosts document root for `homeinyork.uk`.
-2. Create a `cache/` directory alongside them and ensure it is **writable**
-   by the web server:
-   ```
-   mkdir cache
-   chmod 755 cache
-   ```
-   (Or just upload the folder — PHP will try to create it automatically
-   but may need write permission on the parent directory.)
 
 ## How it works
 
