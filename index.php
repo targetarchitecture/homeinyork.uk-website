@@ -131,7 +131,7 @@ if (empty($images)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homeinyork.uk</title>
+    <title>Home of The Joblings online</title>
     <meta name="description" content="York, England">
     <meta name="robots" content="index, follow">
     <style>
